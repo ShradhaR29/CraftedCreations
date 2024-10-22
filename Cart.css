@@ -1,0 +1,113 @@
+/* General Container */
+.cart-container {
+    padding: 30px;
+    background-color: #cfccc2; /* Background color for the cart */
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #16130d;
+}
+
+/* Cart Items */
+.cart-items {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    margin: 20px 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center; /* Align items in the cart */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+    margin: 10px 0;
+    padding: 15px; /* Padding inside each item */
+}
+
+.cart-item-img {
+    width: 100px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image to fit */
+    border-radius: 8px; /* Optional: for rounded corners */
+    margin-right: 15px; /* Space between image and text */
+}
+
+
+.cart-item-details {
+    margin-left: 15px; /* Space between image and details */
+    text-align: left; /* Align text to the left */
+}
+
+.cart-item-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #16130d;
+}
+
+.cart-item-description {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.cart-item-price {
+    font-size: 18px;
+    color: #16130d;
+}
+
+.remove-button {
+    background-color: #8f8a7e; /* Red background for remove button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #cfccc2; /* Darker red on hover */
+}
+
+/* Cart Summary */
+.cart-summary {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.checkout-button {
+    background-color: #16130d; /* Dark background for checkout button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #8f8a7e; /* Lighter color on hover */
+}
+
+.proceed-to-pay-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #16130d; /* Green */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.proceed-to-pay-btn:hover {
+    background-color: #8f8a7e; /* Darker green on hover */
+}

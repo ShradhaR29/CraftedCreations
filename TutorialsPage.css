@@ -1,0 +1,76 @@
+/* Main container */
+.tutorials-main-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Title and description */
+.page-title {
+  font-size: 2.5rem;
+  color: #16130d;
+}
+
+.page-description {
+  font-size: 1.2rem;
+  color: #16130d;
+  margin-bottom: 40px;
+}
+
+/* Section layout */
+.tutorials-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Boxes for tutorials */
+.tutorials-box {
+  width: 45%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.tutorials-box:hover {
+  transform: scale(1.05);
+}
+
+/* Free tutorials box */
+.free-tutorials {
+  background-color: #f4f4f1;
+  border: 2px solid #f4f4f1;
+}
+
+
+/* Headings for sections */
+.tutorials-box h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Paragraph inside the boxes */
+.tutorials-box p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Buttons */
+.tutorial-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #16160d;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.tutorial-button:hover {
+  background-color: #5e4b4e;
+}

@@ -1,0 +1,106 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #f4f4f1;
+  color: #F4F4F1;
+}
+
+/* Logo section */
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 60px;
+  margin-left: 5px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 8px 15px;
+  width: 300px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+.search-btn {
+  padding: 8px 15px;
+  background-color: #16130D;
+  border: none;
+  color: #f4f4f1;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+}
+
+.search-btn:hover {
+  background-color: #8F8A7E;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  color: #16130D;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links li a:hover {
+  color: #8F8A7E;
+}
+
+/* Special Style for Tutorials Link */
+.nav-links li a[href='/Tutorials'] {
+  font-weight: bold;
+  color: #8F8A7E;
+  border-bottom: 2px solid #8F8A7E;
+  padding-bottom: 2px;
+}
+
+.nav-links li a[href='/Tutorials']:hover {
+  color: #F4F4F1;
+  background-color: #8F8A7E;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+/* Cart Button - Unique Style */
+.cart-btn {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #16130d; /* Button background color */
+  color: #f4f4f1; /* Button text color */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 30px; /* Rounded corners */
+}
+
+/* Adding a cart icon inside the button (optional) */
+.cart-btn::before {
+  content: "🛒";
+  margin-right: 8px;
+}
+
+.cart-btn:hover {
+  background-color: #8F8A7E;
+  color: #f4f4f1;
+}

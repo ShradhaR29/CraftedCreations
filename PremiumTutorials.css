@@ -1,0 +1,76 @@
+/* General Container */
+.premium-tutorials-container {
+    padding: 30px;
+    background-color: #cfccc2; /* Keep the background color */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #16130d; /* Dark color */
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #4a4a4a; /* Dark gray */
+  }
+  
+  /* Premium Tutorials Grid */
+  .premium-tutorials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .premium-tutorials-grid .card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-radius: 8px; /* Adjusted border radius */
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .premium-tutorials-grid .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .premium-tutorials-grid .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .premium-tutorials-grid .card-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #16130d; /* Dark color for titles */
+    margin: 15px 0;
+  }
+  
+  /* Button Styling */
+  .premium-tutorials-grid .button {
+    align-items: center; /* Center align the content */
+    justify-content: center; /* Center the text horizontally */
+    padding: 10px 5px; /* Increased horizontal padding */
+    background-color: #16130d; /* Dark background color */
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    border: none; /* Remove border */
+    border-radius: 30px; /* Large border radius */
+    font-size: 16px; /* Font size */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .premium-tutorials-grid .button:hover {
+    background-color: #8f8a7e; /* Lighter color on hover */
+  }
+  
